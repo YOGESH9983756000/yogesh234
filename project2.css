@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.hero {
+    background-image: url(inage.png);
+    width: 100vw;
+    min-height: 130vh;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.yogesh {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.head-line{
+    display: flex;
+     justify-content: center;
+
+     
+}
+
+
+.good{
+    margin-right: 10px;
+}
+
+.hero-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    color: aliceblue;
+   flex-direction: column; 
+}
+
+.hero-main-tixt{
+    font-size: 72px;
+    max-width: 800px;
+    font-weight: 400;
+}
+
+.right{
+    width: 100%;
+    max-width: 800px;
+    color: gold;
+}
